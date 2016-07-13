@@ -48,7 +48,7 @@
                 <true/>
             </dict>
         </config-file>
-        
+
 
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
             <array>
@@ -94,7 +94,7 @@
             </feature>
             <preference name="WECHATAPPID" value="$WECHATAPPID"/>
         </config-file>
-        
+
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.INTERNET"/>
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -129,6 +129,9 @@
 
         <source-file src="src/android/Wechat.java" target-dir="src/xu/li/cordova/wechat" />
         <source-file src="src/android/Util.java" target-dir="src/xu/li/cordova/wechat" />
+        <source-file src="src/android/EntryActivity.java" target-dir="src/xu/li/cordova/wechat" />
+        <source-file src="src/android/WXEntryActivity.java" target-dir="src/xu/li/cordova/wechat" />
+        <source-file src="src/android/WXPayEntryActivity.java" target-dir="src/xu/li/cordova/wechat" />  
         <source-file src="src/android/libammsdk.jar" target-dir="libs" />
     </platform>
 </plugin>
